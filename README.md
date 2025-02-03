@@ -1,3 +1,3 @@
-# Mini project_1
+# Mini project
 Tennis Data with SportRadar API
 
