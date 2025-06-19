@@ -13,10 +13,10 @@ data = response.json()  # Parse JSON response
 # Step 2: Connect to SQL Server using pyodbc
 connection_string = (
     'DRIVER={ODBC Driver 17 for SQL Server};'
-    'SERVER=LAPTOP-1T835K9N\WINCC;'  # Change to your SQL Server's address or instance name
-    'DATABASE=tennisdb;'  # Change to your target database
-    'UID=sa;'  # SQL login username (or remove for Windows Authentication)
-    'PWD=Harish@123;'  # SQL login password (or remove for Windows Authentication)
+    'SERVER=LAPTOP-1T835K9N\WINCC;'  # SQL Server's address
+    'DATABASE=tennisdb;'  # Target database
+    'UID=sa;'  # SQL login username
+    'PWD=Harish@123;'  # SQL login password
 )
 conn = pyodbc.connect(connection_string)
 cursor = conn.cursor()
