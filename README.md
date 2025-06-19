@@ -14,6 +14,8 @@ This project extracts, stores, analyzes, and visualizes tennis data using the Sp
 
 📈 Streamlit dashboard for visualization and insights
 
+
+
 🧰 Tech Stack
 Python – API integration and data handling
 
@@ -24,6 +26,8 @@ SQL – Insightful queries
 Streamlit – Web app for interactive analytics
 
 Sportradar API – Tennis data provider
+
+
 
 🧠 Skills You’ll Gain
 API integration
